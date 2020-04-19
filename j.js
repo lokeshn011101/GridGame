@@ -31,6 +31,7 @@ let seconds1=0;
 let milliseconds=0;
 let interval=null;
 var best=[];
+var c = 255;
 
 function stopwatch(){
   milliseconds+=5;
@@ -79,6 +80,8 @@ function changeText(element){
   if(initialCounter-element.innerHTML===20 && initialCounter<=40){
   element.innerHTML=initialCounter;
   initialCounter++;
+  document.getElementsByClassName('box').style.backgroundColor = 'rgb(' + [c,0,0].join(',') + ')';
+  c = Math.floor(c-6.375);
   
   console.log(initialCounter);
   console.log(element.innerHTML)
@@ -86,6 +89,8 @@ function changeText(element){
   else if(initialCounter-element.innerHTML===20 && initialCounter>40){
     element.innerHTML=' ';
   initialCounter++;
+  element.style.backgroundColor = 'rgb(' + [c,0,0].join(',') + ')';
+  c = Math.floor(c-6.375);
   }
   if(initialCounter===61){
     stopgame();
