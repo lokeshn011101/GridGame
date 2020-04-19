@@ -80,9 +80,9 @@ function changeText(element){
   if(initialCounter-element.innerHTML===20 && initialCounter<=40){
   element.innerHTML=initialCounter;
   initialCounter++;
-  document.getElementsByClassName('box').style.backgroundColor = 'rgb(' + [c,0,0].join(',') + ')';
+  element.style.backgroundColor='hsl(260,5%,'+(100-(element.innerHTML*2))+'%)';
   c = Math.floor(c-6.375);
-  
+    
   console.log(initialCounter);
   console.log(element.innerHTML)
   }

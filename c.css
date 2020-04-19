@@ -13,6 +13,7 @@ body {
 		margin:1%;
 		padding:1%;
 		display: inline-block;
+		float: right; 
 }
 #description{
 	font-size: 25px;
@@ -78,8 +79,14 @@ top: 40%;
 #st{
 	text-align: center;
 font-size: 50px;
-font-weigth: bold;
-margin: 50px auto;
-left: 65%;
-top: 40%;
+font-weight: bold;
+position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	margin-left: -300px;
+display: block;
+}
+#newg {
+	display: block;
+	float: left;
 }
