@@ -1,0 +1,85 @@
+body {
+	background-color: #82168a;
+	color: white;
+	font-family: "Verdana";
+}
+.time, .besttime, #newg{
+	font-size: 25px;
+		background-color: rgba(218,234,213,0.60);
+		color: #000000; 
+		text-align: center;
+		text-decoration: none; 
+		border-radius: 5px;
+		margin:1%;
+		padding:1%;
+		display: inline-block;
+}
+#description{
+	font-size: 25px;
+	background-color: rgba(218,234,213,0.60);
+	color: #000000; 
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	margin: 1%; 
+	text-decoration: none; 
+	border-radius: 5px;
+	margin-right: 100px;
+}
+#grid {
+	display: none;
+	grid-template-columns: auto auto auto auto auto;
+	width: 305px;
+ 	height: 240px;
+ 	text-align: center;
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	margin-left: -150px;
+	font-size: 35px;
+	text-align: center;
+	border: 2px solid grey;
+	border-width: 5px;
+}
+.box{
+	border-radius:5px 5px 5px 5px;
+	background-color: white;
+	color: black;
+	box-sizing: border-box;
+	margin: 5px 4px 5px 7px;
+	height: 50px;
+	width:50px;
+	padding-top: 1px;
+	text-align: center;
+	cursor: pointer;
+}
+#count{
+	text-align: center;
+font-size: 100px;
+font-weight: bold;
+margin: 50px auto;
+left: 65%;
+top: 40%;
+}
+
+#res{
+	font-size: 25px;
+	background-color: rgba(218,234,213,0.60);
+	color: #000000; 
+	display: none;
+	text-align: center;
+	padding: 10px;
+	margin: 1%; 
+	text-decoration: none; 
+	border-radius: 5px;
+	margin-right: 100px;
+}
+
+#st{
+	text-align: center;
+font-size: 50px;
+font-weigth: bold;
+margin: 50px auto;
+left: 65%;
+top: 40%;
+}
