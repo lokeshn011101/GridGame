@@ -82,10 +82,13 @@ font-weight: bold;
 position: absolute;
   	left: 50%;
   	top: 50%;
-  	margin-left: -300px;
+  	margin-left: -350px;
 display: block;
 }
 #newg {
 	display: block;
 	float: left;
+}
+.timer, .besttime {
+	float: right;
 }
