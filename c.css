@@ -58,8 +58,10 @@ body {
 font-size: 100px;
 font-weight: bold;
 margin: 50px auto;
-left: 65%;
-top: 40%;
+left: 50%;
+top: 50%;
+margin-left: -50px;
+position: absolute;
 }
 
 #res{
